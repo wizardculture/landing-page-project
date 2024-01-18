@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    font-family: 'Tolkien', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #1f2937;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    padding-right: 16px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    display: flex;
+    align-self: center;
+    font-weight: 600;
+    padding-left: 16px;
+    
+}
+
+.container1 {
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    gap: 30px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.title {
+    text-align: center;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+img {
+    border-radius: 15px 50px;
+}
+.infotext {
+    font-size: 12px;
+    font-family: 'Tolkien', sans-serif;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    display: flex;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 30px;
+    flex: 1;
+}
+.footer {
+    display: flex;
+    padding: 32px;
+    
+}
+.card {
+    background-color: #3882f6;
+    padding: 10px;
+    flex: 1;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+button {
+    margin: 30px;
+}    
+  
+    
+    
+    
+}
+
+
+
+
+
+
+
